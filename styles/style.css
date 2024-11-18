@@ -341,3 +341,64 @@ body {
     line-height: 19px;
     text-align: left;
   }
+  /* style support section */
+:root {
+    --primary: hsla(0, 0%, 14%, 0.9);
+    --secondary: hsla(0, 0%, 10%, 0.8);
+  }
+  .support {
+    max-width: 1550px;
+    height: 413px;
+    margin: 50px auto 80px auto;
+    background: linear-gradient(150deg, var(--primary), var(--secondary)),
+      url("../assets/handshake.jpg") no-repeat center center / cover;
+    border-radius: 16px;
+    padding: 80px 48px 80px 48px;
+  }
+  .support-content h3 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.09%;
+    text-align: center;
+  }
+  .support-content p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    width: 680px;
+    margin: 16px auto 24px auto;
+  }
+  .div-button {
+    display: flex;
+    gap: 15px;
+  }
+  .feedback {
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    width: 510px;
+    height: 57px;
+    background: rgb(255, 255, 255);
+    margin: 0px 0 0 400px;
+    padding: 19px 20px 19px 20px;
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .div-button input {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0%;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    height: 57px;
+    width: 120px;
+    padding: 17px 20px 17px 20px;
+    border: none;
+  }
