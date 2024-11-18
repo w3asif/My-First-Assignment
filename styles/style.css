@@ -79,3 +79,106 @@ body {
     border: none;
     margin-top: 30px;
   }
+  /* style why web development section */
+#about-development {
+    background: rgb(250, 250, 251);
+    width: 1550px;
+    height: 1393px;
+    margin-top: 75px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 16px;
+    padding: 80px 97px 80px 97px;
+  }
+  .development-content > h2 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .development-content p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 1000px;
+    opacity: 0.7;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sub-title1 {
+    border-radius: 16px;
+    background: linear-gradient(
+      90deg,
+      rgb(255, 255, 255),
+      rgba(255, 255, 255, 0) 100%
+    );
+    width: 1083px;
+    height: 336px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 48px 33px 48px 48px;
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .sub-title2 {
+    border-radius: 16px;
+    background: linear-gradient(
+      270deg,
+      rgb(255, 255, 255),
+      rgba(255, 255, 255, 0) 100%
+    );
+    width: 1083px;
+    height: 336px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 48px 48px 48px 35px;
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .subtitle-content > h3 {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin: 8px 0px;
+  }
+  .subtitle-content > p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    margin: 16px 0px;
+    width: 500px;
+    opacity: 0.7;
+  }
+  .div-btn {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    margin-top: 16px;
+    padding: 12px 20px 12px 20px;
+  }
+  .sub-title3 {
+    border-radius: 16px;
+    background: linear-gradient(
+      90deg,
+      rgb(255, 255, 255),
+      rgba(255, 255, 255, 0) 100%
+    );
+    width: 1083px;
+    height: 336px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 48px 33px 48px 48px;
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+  }
