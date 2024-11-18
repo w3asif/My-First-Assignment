@@ -182,3 +182,36 @@ body {
     display: flex;
     justify-content: space-between;
   }
+  /* styling My Inspiration */
+.my-inspiration {
+    margin-top: 90px;
+  }
+  .inspiration-content h2 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 0.5px;
+  }
+  .inspiration-content p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.7;
+    width: 852px;
+    margin: 24px auto 48px auto;
+  }
+  .inspiration-banner {
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    text-align: center;
+  }
+  .inspiration-banner > iframe {
+    padding: 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+  }
