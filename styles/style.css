@@ -34,3 +34,48 @@ body {
     border-radius: 8px;
     opacity: 0.8;
   }
+  /* Styling hero section */
+.hero {
+    background: url("../assets/Hero-bg.png") no-repeat center center / cover;
+    height: 650px;
+    margin-top: 50px;
+  }
+  .hero-content .hero-img {
+    margin-top: 28px;
+  }
+  .hero .hero-content {
+    text-align: center;
+  }
+  .hero-content > h1 {
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 28px;
+    word-spacing: 5px;
+  }
+  .hero-content .hero-describtion {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.06;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22px;
+  }
+  .hero-content .hero-btn {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    padding: 19px 22px 19px 22px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    border: none;
+    margin-top: 30px;
+  }
