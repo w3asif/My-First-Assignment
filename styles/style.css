@@ -287,3 +287,57 @@ body {
     line-height: 19px;
     text-align: left;
   }
+  /* style my next target section */
+#target-text {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0.09%;
+    text-align: center;
+  }
+  .title-describtion {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 852px;
+    margin: 24px auto 24px auto;
+    opacity: 0.7;
+  }
+  .nextlanguage-name {
+    display: flex;
+    width: 1550px;
+    padding: 40px;
+    gap: 32px;
+    margin: 24px auto 24px auto;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+  }
+  .language-title h2 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .language-title p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 8px 0 8px 0;
+  }
+  .language-title a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+  }
