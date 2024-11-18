@@ -215,3 +215,75 @@ body {
     border-radius: 16px;
     border: 1px solid rgba(13, 19, 33, 0.2);
   }
+  /* Styling My Current target */
+.curren-target {
+    width: 1550px;
+    margin: 150px auto 111px auto;
+  }
+  .target-content h2 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+  }
+  .target-content p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.07px;
+    text-align: center;
+    width: 800px;
+    margin: 24px auto 48px auto;
+    opacity: 0.7;
+  }
+  .language-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 34px;
+  }
+  .language-section .language1-name {
+    height: 400px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+  }
+  .language-section .language2-name {
+    height: 400px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+  }
+  .language-section .language3-name {
+    height: 400px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+  }
+  .language-section .title {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 8px 0px;
+  }
+  .language-section .subl-title {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    opacity: 0.7;
+    margin: 8px 0px;
+  }
+  .language-section a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+  }
